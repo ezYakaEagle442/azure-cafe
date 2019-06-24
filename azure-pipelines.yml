@@ -1,9 +1,7 @@
 
 variables:
 
-  
-
-  - group: azurecafe-variables
+  - group: azure-cafe-variables
   - name: dockerRegistryServiceConnection
     value: 'containerRegistryConnection' # replace with container registry service connection name established during pipeline creation
 
