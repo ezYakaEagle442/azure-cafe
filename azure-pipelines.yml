@@ -39,14 +39,14 @@ steps:
   continueOnError: true
   inputs:
     connectionType: 'Kubernetes Service Connection'
-    kubernetesServiceEndpoint: 'ezyakaeagle442-aks-workshop'
+    kubernetesServiceEndpoint: 'aksworkshop-ezyakaeagle442-aks-workshop-dev-1561383791527'
     command: 'delete'
     useConfigurationFile: true
     configuration: 'azure-cafe.yml'
 - task: Kubernetes@1
   inputs:
     connectionType: 'Kubernetes Service Connection'
-    kubernetesServiceEndpoint: 'ezyakaeagle442-aks-workshop'
+    kubernetesServiceEndpoint: 'aksworkshop-ezyakaeagle442-aks-workshop-dev-1561383791527'
     command: 'create'
     useConfigurationFile: true
     configuration: 'azure-cafe.yml'
